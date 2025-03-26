@@ -1,22 +1,22 @@
 # Drone Delivery Assignment System
 
-## 📌 Project Overview
+## Project Overview
 The **Drone Delivery Assignment System** is designed to efficiently allocate drones for delivering orders based on their payload capacity and speed. The system ensures optimal order fulfillment while minimizing total travel distance using a greedy nearest-neighbor approach.
 
-## 🚀 Features
+## Features
 - **Prioritization of Drones**: Drones are sorted based on payload capacity and speed to maximize efficiency.
 - **Dynamic Order Assignment**: Orders are assigned to available drones while respecting payload limits.
 - **Greedy Route Optimization**: The system optimizes the delivery sequence to minimize travel distance.
 - **Safe Order Removal**: Ensures that assigned orders are removed without index shifting errors.
 
-## 🛠️ How It Works
+## How It Works
 1. **Sort Drones**: Drones are sorted in descending order of payload and ascending order of speed.
 2. **Iterate Over Drones**: Each available drone attempts to fulfill as many orders as possible.
 3. **Assign Orders Greedily**: Orders are selected based on weight capacity constraints.
 4. **Optimize Delivery Route**: The system calculates the optimal delivery route for assigned orders.
 5. **Store Results**: The assignments are stored and returned as structured data.
 
-## 📄 Code Structure
+## Code Structure
 ### **`assign_drones(drones, orders)`**
 ```python
 def assign_drones(drones, orders):
@@ -52,7 +52,7 @@ def assign_drones(drones, orders):
     return assignments
 ```
 
-## 📊 Example Input & Output
+## Example Input & Output
 ### **Input:**
 ```json
 {
@@ -76,7 +76,7 @@ def assign_drones(drones, orders):
 ]
 ```
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 1. **Clone the Repository:**
 ```sh
 git clone https://github.com/yourusername/drone-delivery.git
@@ -90,6 +90,6 @@ python main.py
 
 3. **Modify Inputs:** Update `drones.json` and `orders.json` for custom data.
 
-## 📌 Dependencies
+## Dependencies
 - Python 3.10+
 - NumPy (for calculations)
