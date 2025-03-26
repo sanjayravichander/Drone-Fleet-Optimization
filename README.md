@@ -79,9 +79,8 @@ def assign_drones(drones, orders):
 ## Installation & Usage
 1. **Clone the Repository:**
 ```sh
-git clone https://github.com/yourusername/Drone-Fleet-Optimization
-.git
-cd drone-delivery
+git clone https://github.com/yourusername/Drone-Fleet-Optimization.git
+cd Drone-Fleet-Optimization
 ```
 
 2. **Run the Script:**
