@@ -91,5 +91,4 @@ python main.py
 3. **Modify Inputs:** Update `drones.json` and `orders.json` for custom data.
 
 ## Dependencies
-- Python 3.10+
-- NumPy (for calculations)
+- Python 3.10
