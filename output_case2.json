@@ -1,0 +1,20 @@
+{
+    "assignments": [
+        {
+            "id": "D2",
+            "orders": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "total_distance": 16
+        },
+        {
+            "id": "D1",
+            "orders": [
+                "O4"
+            ],
+            "total_distance": 50
+        }
+    ]
+}
