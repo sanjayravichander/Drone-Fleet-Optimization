@@ -85,9 +85,9 @@ cd Drone-Fleet-Optimization
 
 2. **Run the Script:**
 ```sh
-python main.py
+python research.py
 ```
 
 
 ## Dependencies
-- Python 3.10
+- Python 3.10+
