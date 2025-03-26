@@ -93,18 +93,3 @@ python main.py
 ## 📌 Dependencies
 - Python 3.10+
 - NumPy (for calculations)
-
-## 📄 License
-This project is licensed under the MIT License.
-
-## 💡 Future Improvements
-- Implement real-time tracking of drones
-- Enhance route optimization using A* search
-- Integrate with live weather APIs for delivery adjustments
-
-## 🏆 Contributors
-- **Your Name** - Developer & Maintainer
-
-## 📧 Contact
-For any inquiries, feel free to reach out at `your.email@example.com`.
-
